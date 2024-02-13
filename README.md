@@ -1,4 +1,4 @@
-<h1 align="center">IIIT Kalyani Placement Portal </h1> 
+<h1 align="center">Sinhgad Lonavla Placement Portal </h1> 
 <br>
 
 <div align="center">
@@ -82,13 +82,9 @@ Before making pull requests please look at our contributing guidelines (coming s
 
 # ✨ Contributors
 
-<a href="https://github.com/rajubhojane/pbl_placement/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rajubhojane/pbl_placement" />
+<a href="https://github.com/GDSC-IIIT-Kalyani/placement-portal/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GDSC-IIIT-Kalyani/placement-portal" />
 </a>
 
 
-<div align="center">
- <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="love" />
- <img src="https://forthebadge.com/images/badges/thats-how-they-get-you.svg" alt="how">
-</div>
 
