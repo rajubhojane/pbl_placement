@@ -80,11 +80,7 @@ git push -u origin <your_branch_name>
 Before making pull requests please look at our contributing guidelines (coming soon). You can start working on the issue which are mentioned in issues section. Just drop a comment before working on the issue. Thank you!
 
 
-# ✨ Contributors
 
-<a href="https://github.com/GDSC-IIIT-Kalyani/placement-portal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=GDSC-IIIT-Kalyani/placement-portal" />
-</a>
 
 
 
