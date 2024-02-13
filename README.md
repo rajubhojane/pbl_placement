@@ -20,6 +20,8 @@
 </div>
 
 <p align="center">
+  <b>Code Base of Sinhgad Institue of Technology, Lonavala official Placement Portal</b>
+
   <b>Code Base of Sinhgad Lonavla official Placement Portal</b>
 </p>
 
