@@ -1,0 +1,8 @@
+about.html
+our-team.html
+past-recruitres.html
+placement-records.html
+login.html
+signup.html
+contact.html
+admin-panel.html
