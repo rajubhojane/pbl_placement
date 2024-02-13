@@ -20,7 +20,7 @@
 </div>
 
 <p align="center">
-  <b>Code Base of IIIT kalyani official Placement Portal</b>
+  <b>Code Base of Sinhgad Lonavla official Placement Portal</b>
 </p>
 
 ## **Getting Started**
