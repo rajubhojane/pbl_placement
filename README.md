@@ -82,8 +82,8 @@ Before making pull requests please look at our contributing guidelines (coming s
 
 # ✨ Contributors
 
-<a href="https://github.com/GDSC-IIIT-Kalyani/placement-portal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=GDSC-IIIT-Kalyani/placement-portal" />
+<a href="https://github.com/rajubhojane/pbl_placement/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rajubhojane/pbl_placement" />
 </a>
 
 
