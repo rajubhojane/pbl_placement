@@ -1,4 +1,4 @@
-<h1 align="center">IIIT Kalyani Placement Portal </h1> 
+<h1 align="center">Sinhgad Lonavla Placement Portal </h1> 
 <br>
 
 <div align="center">
@@ -87,8 +87,4 @@ Before making pull requests please look at our contributing guidelines (coming s
 </a>
 
 
-<div align="center">
- <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="love" />
- <img src="https://forthebadge.com/images/badges/thats-how-they-get-you.svg" alt="how">
-</div>
 
