@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tree Structure</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  /* Style the caret/arrow */
+  .caret {
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+    font-size: 1.5rem; /* Increase caret size */
+    transition: transform 0.3s ease;
+  }
+
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+  .caret-down::before {
+    transform: rotate(90deg);
+  }
+
+  /* Hide the nested list */
+  .nested {
+    display: none;
+    padding-left: 20px; /* Indent nested lists */
+    position: relative; /* Add relative positioning */
+    z-index: 1; /* Ensure the nested list appears in front */
+    animation: slideIn 0.5s ease forwards; /* Add slideIn animation */
+  }
+
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+  .active {
+    display: block;
+  }
+  
+  /* Style list items */
+  li {
+    margin-bottom: 10px; /* Increase margin between list items */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    border-radius: 10px; /* Rounded corners */
+    background: linear-gradient(145deg, #353535, #1e1e1e); /* Add gradient background */
+    box-shadow: 3px 3px 5px #1a1a1a, -3px -3px 5px #4a4a4a; /* Add shadow */
+  }
+  
+  /* Style the hover effect */
+  li:hover {
+    background: linear-gradient(145deg, #252525, #191919); /* Lighter gradient background on hover */
+  }
+
+  /* Custom animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <ul id="myUL" class="list-group list-group-flush">
+    <li class="list-group-item text-light"><span class="caret mr-2">Amazone</span>
+      <ul class="nested list-group">
+        <li class="list-group-item text-light">Developer</li>
+        <li class="list-group-item text-light">Tester</li>
+        <li class="list-group-item text-light"><span class="caret mr-2">Coder</span>
+          <ul class="nested list-group">
+            <li class="list-group-item text-light">Below 10 Lakh</li>
+            <li class="list-group-item text-light">Above 10 Lakh</li>
+            <li class="list-group-item text-light"><span class="caret mr-2">more Than 20 Lakh</span>
+              <ul class="nested list-group">
+                <li class="list-group-item text-light">Sencha</li>
+                <li class="list-group-item text-light">Gyokuro</li>
+                <li class="list-group-item text-light">Matcha</li>
+                <li class="list-group-item text-light">Pi Lo Chun</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <ul id="myUL" class="list-group list-group-flush">
+    <li class="list-group-item text-light"><span class="caret mr-2">Infosys</span>
+      <ul class="nested list-group">
+        <li class="list-group-item text-light">Water</li>
+        <li class="list-group-item text-light">Coffee</li>
+        <li class="list-group-item text-light"><span class="caret mr-2">Tea</span>
+          <ul class="nested list-group">
+            <li class="list-group-item text-light">Black Tea</li>
+            <li class="list-group-item text-light">White Tea</li>
+            <li class="list-group-item text-light"><span class="caret mr-2">Green Tea</span>
+              <ul class="nested list-group">
+                <li class="list-group-item text-light">Sencha</li>
+                <li class="list-group-item text-light">Gyokuro</li>
+                <li class="list-group-item text-light">Matcha</li>
+                <li class="list-group-item text-light">Pi Lo Chun</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  var toggler = document.getElementsByClassName("caret");
+  var i;
+
+  for (i = 0; i < toggler.length; i++) {
+    toggler[i].addEventListener("click", function() {
+      var nestedList = this.parentElement.querySelector(".nested");
+      nestedList.classList.toggle("active");
+      this.classList.toggle("caret-down");
+    });
+  }
+</script>
+
+</body>
+</html>
